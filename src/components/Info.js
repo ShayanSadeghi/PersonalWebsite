@@ -1,27 +1,36 @@
 import styles from "../styles/Info.module.css";
 
-import building from "../images/building-columns-solid.svg";
+const infoList = [
+  {
+    title: "Location",
+    value: " Iran",
+    src: "../images/building-columns-solid.svg",
+  },
+  {
+    title: "Education",
+    value: "education value",
+    src: "../images/building-columns-solid.svg",
+  },
+  {
+    title: "University",
+    value: "uni value",
+    src: "../images/building-columns-solid.svg",
+  },
+];
 
 export default function Info() {
   return (
     <div className={styles.container}>
-      <img className={styles.avatar} src="avatar.png" alt="avatar" />
-      <p className={styles.NameText}>Name</p>
+      <img className={styles.avatar} src="avatar.jpg" alt="avatar" />
+      <p className={styles.NameText}>Mahsa Amini</p>
+
       <ul className={styles.smallInfo}>
-        <li>
-          <img src={building} className={styles.icon} alt="avatar" />
-          <span className={styles.infoSmallText}>Location: Mashhad, Iran</span>
-        </li>
-        <li>
-          <img src={building} className={styles.icon} alt="avatar" />
-          <span className={styles.infoSmallText}>
-            University: Ferdowsi University of Mashhad
-          </span>
-        </li>
-        <li>
-          <img src={building} className={styles.icon} alt="avatar" />
-          <span className={styles.infoSmallText}>E-mail: user@test.com</span>
-        </li>
+        {infoList.map((item) => (
+          <li key={item.title}>
+            <img src={item.src} className={styles.icon} alt="icon" />
+            <span className={styles.infoSmallText}>{item.value}</span>
+          </li>
+        ))}
       </ul>
     </div>
   );
