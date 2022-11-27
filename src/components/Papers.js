@@ -1,3 +1,5 @@
+import styles from "../styles/Sections.module.css";
+
 const papersList = [
   {
     id: 1,
@@ -31,7 +33,7 @@ const papersList = [
 
 export default function Papers() {
   return (
-    <div>
+    <div className={styles.container}>
       {papersList.map((paper) => (
         <div key={paper.id}>
           <h4>{paper.title}</h4>

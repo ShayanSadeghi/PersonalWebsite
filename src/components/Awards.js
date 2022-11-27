@@ -1,3 +1,5 @@
+import styles from "../styles/Sections.module.css";
+
 const AwardsList = [
   {
     id: 1,
@@ -25,7 +27,7 @@ const AwardsList = [
 
 export default function Awards() {
   return (
-    <div>
+    <div className={styles.container}>
       {AwardsList.map((award) => (
         <div key={award.id}>
           <h4>{award.title}</h4>
