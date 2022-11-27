@@ -1,0 +1,27 @@
+.container {
+  width: 60%;
+  padding: 80px;
+  margin: 0 auto;
+  position: static;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #e2e2e2;
+}
+
+.text {
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #575757;
+  color: #efefef;
+  border-radius: 10px;
+}
+
+.link:hover {
+  background-color: #000;
+  color: e3e3e3;
+}
