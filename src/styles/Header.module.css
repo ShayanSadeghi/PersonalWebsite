@@ -12,11 +12,16 @@
 
 .container li {
   display: inline;
+}
+
+.link {
   padding: 5px 35px;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
+  color: #6b6b6b;
 }
 
-.container li:hover {
+.link:hover {
   border-bottom: 4px solid #6b6b6b;
 }
