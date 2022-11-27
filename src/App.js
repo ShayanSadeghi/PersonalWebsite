@@ -16,10 +16,15 @@ function App() {
           <Route
             path="/"
             element={
-              <>
+              <div
+                style={{
+                  display: "flex",
+                  width: "100%",
+                }}
+              >
                 <Info />
                 <HomeInfo />
-              </>
+              </div>
             }
           />
           <Route path="/papers" element={<Papers />} />

@@ -2,17 +2,21 @@
   width: 100%;
   text-align: center;
   width: 30%;
-  margin-left: 10px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
 }
 
 .avatar {
   width: 200px;
   border-radius: 100px;
 }
-
-.smallInfo {
-  display: inline;
+.NameText {
+  font-weight: bold;
+  font-size: 45px;
 }
+
 .smallInfo i {
   margin-right: 5px;
 }

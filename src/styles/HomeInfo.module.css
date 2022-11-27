@@ -1,5 +1,11 @@
 .container {
-  width: 70%;
+  width: 60%;
+  margin: 0 auto;
+  margin-left: 10px;
+  padding: 10px;
+
+  border: 1px solid gray;
+  border-radius: 4px;
 }
 
 .header {
