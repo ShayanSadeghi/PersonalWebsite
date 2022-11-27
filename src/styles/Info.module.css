@@ -1,0 +1,32 @@
+.container {
+  background-color: red;
+  width: 100%;
+  text-align: center;
+  width: 30%;
+  margin-left: 10px;
+}
+
+.avatar {
+  height: 250px;
+}
+
+.smallInfo {
+  display: inline;
+}
+.smallInfo i {
+  margin-right: 5px;
+}
+
+.smallInfo li {
+  text-align: left;
+  list-style: none;
+  margin-left: 0;
+}
+
+.icon {
+  width: 16px;
+}
+
+.infoSmallText {
+  margin-left: 10px;
+}
