@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import cvFile from "../assets/testFile.pdf";
 import styles from "../styles/Header.module.css";
 
 export default function Header() {
@@ -12,9 +12,9 @@ export default function Header() {
           </Link>
         </li>
         <li className={styles.item}>
-          <Link to="/cv" className={styles.link}>
+          <a href={cvFile} target="_blank" className={styles.link}>
             CV
-          </Link>
+          </a>
         </li>
         <li className={styles.item}>
           <Link to="/papers" className={styles.link}>
