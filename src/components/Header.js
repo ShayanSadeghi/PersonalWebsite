@@ -9,7 +9,12 @@ export default function Header() {
         <Link to="/" className={styles.link}>
           <li className={styles.item}>Home</li>
         </Link>
-        <a href={cvFile} target="_blank" className={styles.link}>
+        <a
+          href={cvFile}
+          target="_blank"
+          rel="noreferrer"
+          className={styles.link}
+        >
           <li className={styles.item}>CV</li>
         </a>
         <Link to="/papers" className={styles.link}>
