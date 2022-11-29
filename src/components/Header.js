@@ -6,22 +6,22 @@ export default function Header() {
   return (
     <nav className={styles.container}>
       <ul>
-        <li>
+        <li className={styles.item}>
           <Link to="/" className={styles.link}>
             Home
           </Link>
         </li>
-        <li>
+        <li className={styles.item}>
           <Link to="/cv" className={styles.link}>
             CV
           </Link>
         </li>
-        <li>
+        <li className={styles.item}>
           <Link to="/papers" className={styles.link}>
             Papers
           </Link>
         </li>
-        <li>
+        <li className={styles.item}>
           <Link to="/awards" className={styles.link}>
             Awards
           </Link>
