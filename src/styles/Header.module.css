@@ -16,7 +16,6 @@
   min-width: 150px;
   padding-bottom: 3px;
   padding-inline: 20px;
-  /* margin-inline: 20px; */
 }
 .item:last-child {
   margin-right: 0;
