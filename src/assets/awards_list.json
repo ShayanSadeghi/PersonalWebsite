@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "article title 1",
+    "year": 2022
+  },
+  {
+    "id": 2,
+    "title": "article title 2",
+    "year": 2022
+  },
+  {
+    "id": 3,
+    "title": "article title 3",
+    "year": 2022
+  },
+  {
+    "id": 4,
+    "title": "article title 4",
+    "year": 2022
+  }
+]

@@ -1,29 +1,6 @@
 import styles from "../styles/Sections.module.css";
 
-const AwardsList = [
-  {
-    id: 1,
-    title: "article title 1",
-    year: 2022,
-  },
-  {
-    id: 2,
-    title: "article title 2",
-    year: 2022,
-  },
-  {
-    id: 3,
-    title: "article title 3",
-
-    year: 2022,
-    journal: "journal name",
-  },
-  {
-    id: 4,
-    title: "article title 4",
-    year: 2022,
-  },
-];
+const AwardsList = require("../assets/awards_list.json");
 
 export default function Awards() {
   return (

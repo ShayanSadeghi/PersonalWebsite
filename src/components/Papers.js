@@ -1,35 +1,6 @@
 import styles from "../styles/Sections.module.css";
 
-const papersList = [
-  {
-    id: 1,
-    title: "article title 1",
-    authors: "author name, second author",
-    year: 2022,
-    journal: "journal name",
-  },
-  {
-    id: 2,
-    title: "article title 2",
-    authors: "author name, second author",
-    year: 2022,
-    journal: "journal name",
-  },
-  {
-    id: 3,
-    title: "article title 3",
-    authors: "author name, second author",
-    year: 2022,
-    journal: "journal name",
-  },
-  {
-    id: 4,
-    title: "article title 4",
-    authors: "author name, second author",
-    year: 2022,
-    journal: "journal name",
-  },
-];
+const papersList = require("../assets/papers_list.json");
 
 export default function Papers() {
   return (
