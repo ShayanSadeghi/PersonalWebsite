@@ -1,23 +1,8 @@
-import building from "../images/building-columns-solid.svg";
+import "material-icons/iconfont/material-icons.css";
 
 import styles from "../styles/Info.module.css";
-const infoList = [
-  {
-    title: "Location",
-    value: " Iran",
-    src: building,
-  },
-  {
-    title: "Education",
-    value: "education value",
-    src: building,
-  },
-  {
-    title: "University",
-    value: "uni value",
-    src: building,
-  },
-];
+
+const infoList = require("../assets/info.json");
 
 export default function Info() {
   return (
@@ -28,9 +13,11 @@ export default function Info() {
       <ul className={styles.smallInfo}>
         {infoList.map((item) => (
           <li key={item.title}>
-            <img src={item.src} className={styles.icon} alt="icon" />
-            <span className={styles.infoSmallText}>{item.title}: </span>
-            <span>{item.value}</span>
+            <span className={["material-icons", styles.icon].join(" ")}>
+              {item.icon}
+            </span>
+            {/* <span>{item.title}: </span> */}
+            <span className={styles.infoSmallText}>{item.value}</span>
           </li>
         ))}
       </ul>

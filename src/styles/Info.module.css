@@ -28,9 +28,10 @@
 }
 
 .icon {
-  width: 16px;
+  margin: 10px 20px;
 }
 
 .infoSmallText {
-  margin-left: 10px;
+  margin-left: 20px;
+  align-self: center;
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Location",
+    "value": " Iran",
+    "icon": "location_on"
+  },
+  {
+    "title": "Education",
+    "value": "education value",
+    "icon": "school"
+  },
+  {
+    "title": "Email",
+    "value": "email@test.com",
+    "icon": "email"
+  }
+]
